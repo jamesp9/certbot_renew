@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Stopping Nginx"
+/bin/systemctl stop nginx.service
+
+/home/admin/certbot/certbot-auto renew
+
+echo "Starting Nginx"
+/bin/systemctl start nginx.service
