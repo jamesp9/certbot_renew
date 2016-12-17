@@ -1,6 +1,13 @@
 # certbot_renew
 Basic script to automate certificate update from certbot.
 
+## Install Certbot
+```
+# cd /root
+# git clone https://github.com/certbot/certbot.git
+
+## Setup schedule to run certbot_renew
+
 Use a cron job to run this once a month
 ```
 # m h  dom mon dow   command                                                                                        
