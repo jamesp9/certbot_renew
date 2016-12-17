@@ -5,6 +5,7 @@ Basic script to automate certificate update from certbot.
 ```
 # cd /root
 # git clone https://github.com/certbot/certbot.git
+```
 
 ## Setup schedule to run certbot_renew
 
